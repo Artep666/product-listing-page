@@ -1,0 +1,172 @@
+[
+    {
+      "id": 1,
+      "name": "Running Shoes",
+      "description": "Comfortable running shoes for everyday use.",
+      "price": 64.99,
+      "discountPrice": 49.99,
+      "rating": 4.0,
+      "imageUrl": "path/to/image11.jpg",
+      "color": "Gray"
+    },
+    {
+      "id": 2,
+      "name": "Casual Sneakers",
+      "description": "Stylish casual sneakers for a trendy look.",
+      "price": 54.99,
+      "discountPrice": null,
+      "rating": 4.3,
+      "imageUrl": "path/to/image12.jpg",
+      "color": "White"
+    },
+    {
+      "id": 3,
+      "name": "Formal Oxford Shoes",
+      "description": "Elegant oxford shoes for formal occasions.",
+      "price": 89.99,
+      "discountPrice": null,
+      "rating": 4.5,
+      "imageUrl": "path/to/image13.jpg",
+      "color": "Black"
+    },
+    {
+      "id": 4,
+      "name": "Athletic Training Shoes",
+      "description": "High-performance athletic shoes for training.",
+      "price": 74.99,
+      "discountPrice": null,
+      "rating": 4.2,
+      "imageUrl": "path/to/image14.jpg",
+      "color": "Blue"
+    },
+    {
+      "id": 5,
+      "name": "Classic Loafers",
+      "description": "Classic loafers for a sophisticated look.",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.1,
+      "imageUrl": "path/to/image15.jpg",
+      "color": "Brown"
+    },
+    {
+      "id": 6,
+      "name": "Canvas Slip-Ons",
+      "description": "Comfortable canvas slip-on shoes.",
+      "price": 39.99,
+      "discountPrice": null,
+      "rating": 4.7,
+      "imageUrl": "path/to/image16.jpg",
+      "color": "Gray"
+    },
+    {
+      "id": 7,
+      "name": "Fashionable Wedges",
+      "description": "Fashionable wedges for a chic look.",
+      "price": 69.99,
+      "discountPrice": null,
+      "rating": 4.4,
+      "imageUrl": "path/to/image17.jpg",
+      "color": "Black"
+    },
+    {
+      "id": 8,
+      "name": "Trendy High Heels",
+      "description": "Trendy high heels for a stylish appearance.",
+      "price": 79.99,
+      "discountPrice": null,
+      "rating": 4.6,
+      "imageUrl": "path/to/image18.jpg",
+      "color": "Red"
+    },
+    {
+      "id": 9,
+      "name": "Summer Sandals",
+      "description": "Comfortable sandals for hot summer days.",
+      "price": 49.99,
+      "discountPrice": null,
+      "rating": 4.3,
+      "imageUrl": "path/to/image19.jpg",
+      "color": "Beige"
+    },
+    {
+      "id": 10,
+      "name": "Classic Pumps",
+      "description": "Elegant pumps for formal events.",
+      "price": 89.99,
+      "discountPrice": null,
+      "rating": 4.7,
+      "imageUrl": "path/to/image20.jpg",
+      "color": "Navy"
+    },
+    {
+      "id": 11,
+      "name": "Casual Espadrilles",
+      "description": "Casual espadrilles for a laid-back look.",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.2,
+      "imageUrl": "path/to/image21.jpg",
+      "color": "Blue"
+    },
+    {
+      "id": 12,
+      "name": "Sports Sandals",
+      "description": "Sports sandals for outdoor activities.",
+      "price": 54.99,
+      "discountPrice": null,
+      "rating": 4.5,
+      "imageUrl": "path/to/image22.jpg",
+      "color": "Gray"
+    },
+    {
+      "id": 13,
+      "name": "Platform Sneakers",
+      "description": "Trendy platform sneakers for a bold style.",
+      "price": 69.99,
+      "discountPrice": null,
+      "rating": 4.1,
+      "imageUrl": "path/to/image23.jpg",
+      "color": "Black"
+    },
+    {
+      "id": 14,
+      "name": "Comfortable Mules",
+      "description": "Comfortable mules for everyday wear.",
+      "price": 59.99,
+      "discountPrice": null,
+      "rating": 4.4,
+      "imageUrl": "path/to/image24.jpg",
+      "color": "Brown"
+    },
+    {
+      "id": 15,
+      "name": "Casual Boat Shoes",
+      "description": "Casual boat shoes for a relaxed look.",
+      "price": 49.99,
+      "discountPrice": null,
+      "rating": 4.6,
+      "imageUrl": "path/to/image25.jpg",
+      "color": "Blue"
+    },
+    {
+      "id": 16,
+      "name": "Stylish Ankle Boots",
+      "description": "Stylish ankle boots for a trendy appearance.",
+      "price": 74.99,
+      "discountPrice": 59.99,
+      "rating": 4.3,
+      "imageUrl": "path/to/image26.jpg",
+      "color": "Black"
+    },
+    {
+      "id": 17,
+      "name": "Classic Brogues",
+      "description": "Classic brogues for a timeless style.",
+      "price": 79.99,
+      "discountPrice": null,
+      "rating": 4.7,
+      "imageUrl": "path/to/image27.jpg",
+      "color" : "Navy"
+    }
+]
