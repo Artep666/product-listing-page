@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+       "id": 1,
       "name": "Classic Leather Bag",
       "description": "High-quality leather bag with multiple compartments.",
       "price": 89.99,
@@ -11,173 +11,173 @@
     },
 
     {
-      "id": 2,
-      "name": "Stylish Tote Bag",
-      description: "Fashionable tote bag made from eco-friendly materials.",
-      price: 74.99,
-      discountPrice: 59.99,
-      rating: 4.2,
-      imageUrl: "path/to/image2.jpg",
-      color: "Gray"
+       "id": 2,
+       "name": "Stylish Tote Bag",
+       "description": "Fashionable tote bag made from eco-friendly materials.",
+       "price": 74.99,
+       "discountPrice": 59.99,
+        "rating": 4.2,
+        "imageUrl": "path/to/image2.jpg",
+        "color": "Gray"
     },
     {
         "id": 3,
         "name": "Sports Duffel Bag",
-        "name": "Spacious duffel bag for gym and sports activities.",
-      price: 49.99,
-      discountPrice: null,
-      rating: 4.0,
-      imageUrl: "path/to/image3.jpg",
-      color: "Blue"
+        "description": "Spacious duffel bag for gym and sports activities.",
+        "price": 49.99,
+      "discountPrice": null,
+      "rating": 4.0,
+      "imageUrl": "path/to/image3.jpg",
+      "color": "Blue"
     },
     {
         "id": 4,
         "name": "Stylish Shoulder Bag",
-      description: "Elegant shoulder bag for any occasion.",
-      price: 79.99,
-      discountPrice: null,
-      rating: 4.7,
-      imageUrl: "path/to/image4.jpg",
-      color: "Brown"
+        "description": "Elegant shoulder bag for any occasion.",
+        "price": 79.99,
+      "discountPrice": null,
+      "rating": 4.7,
+      "imageUrl": "path/to/image4.jpg",
+      "color": "Brown"
     },
     {
         "id": 5,
         "name": "Casual Backpack",
-      description: "Durable and versatile backpack for daily use.",
-      price: 49.99,
-      discountPrice: null,
-      rating: 4.5,
-      imageUrl: "path/to/image5.jpg",
-      color: "Green"
+        "description": "Durable and versatile backpack for daily use.",
+        "price": 49.99,
+      "discountPrice": null,
+      "rating": 4.5,
+      "imageUrl": "path/to/image5.jpg",
+      "color": "Green"
     },
     {
         "id": 6,
         "name": "Chic Clutch",
-      description: "Stylish clutch for evenings and special occasions.",
-      price: 39.99,
-      discountPrice: null,
-      rating: 4.3,
-      imageUrl: "path/to/image6.jpg",
-      color: "Silver"
+        "description": "Stylish clutch for evenings and special occasions.",
+        "price": 39.99,
+      "discountPrice": null,
+      "rating": 4.3,
+      "imageUrl": "path/to/image6.jpg",
+      "color": "Silver"
     },
     {
         "id": 7,
         "name": "Rugged Messenger Bag",
-      description: "Durable messenger bag for carrying essentials.",
-      price: 64.99,
-      discountPrice: 49.99,
-      rating: 4.1,
-      imageUrl: "path/to/image7.jpg",
-      color: "Black"
+        "description": "Durable messenger bag for carrying essentials.",
+        "price": 64.99,
+      "discountPrice": 49.99,
+      "rating": 4.1,
+      "imageUrl": "path/to/image7.jpg",
+      "color": "Black"
     },
     {
         "id": 8,
         "name": "Trendy Satchel",
-      description: "Trendy satchel with a modern design.",
-      price: 54.99,
-      discountPrice: null,
-      rating: 4.6,
-      imageUrl: "path/to/image8.jpg",
-      color: "Brown"
+        "description": "Trendy satchel with a modern design.",
+        "price": 54.99,
+      "discountPrice": null,
+      "rating": 4.6,
+      "imageUrl": "path/to/image8.jpg",
+      "color": "Brown"
     },
     {
         "id": 9,
         "name": "Elegant Clutch",
-      description: "Elegant clutch for special occasions.",
-      price: 59.99,
-      discountPrice: null,
-      rating: 4.4,
-      imageUrl: "path/to/image9.jpg",
-      color: "Gold"
+        "description": "Elegant clutch for special occasions.",
+        "price": 59.99,
+      "discountPrice": null,
+      "rating": 4.4,
+      "imageUrl": "path/to/image9.jpg",
+      "color": "Gold"
     },
     {
         "id": 10,
         "name": "Sleek Laptop Bag",
-      description: "Sleek laptop bag for professionals.",
-      price: 69.99,
-      discountPrice: null,
-      rating: 4.0,
-      imageUrl: "path/to/image10.jpg",
-      color: "Gray"
+        "description": "Sleek laptop bag for professionals.",
+        "price": 69.99,
+      "discountPrice": null,
+      "rating": 4.0,
+      "imageUrl": "path/to/image10.jpg",
+      "color": "Gray"
     },
     {
         "id": 11,
         "name": "Fashionable Tote",
-      description: "Fashionable tote bag with trendy prints.",
-      price: 44.99,
-      discountPrice: null,
-      rating: 4.8,
-      imageUrl: "path/to/image11.jpg",
-      color: "Pink"
+        "description": "Fashionable tote bag with trendy prints.",
+        "price": 44.99,
+      "discountPrice": null,
+      "rating": 4.8,
+      "imageUrl": "path/to/image11.jpg",
+      "color": "Pink"
     },
     {
         "id": 12,
         "name": "Sturdy Travel Backpack",
-      description: "Sturdy backpack for travel enthusiasts.",
-      price: 79.99,
-      discountPrice: null,
-      rating: 4.5,
-      imageUrl: "path/to/image12.jpg",
-      color: "Black"
+        "description": "Sturdy backpack for travel enthusiasts.",
+        "price": 79.99,
+      "discountPrice": null,
+      "rating": 4.5,
+      "imageUrl": "path/to/image12.jpg",
+      "color": "Black"
     },
     {
         "id": 13,
         "name": "Leather Handbag",
-      description: "Classic leather handbag for a timeless look.",
-      price: 99.99,
-      discountPrice: null,
-      rating: 4.7,
-      imageUrl: "path/to/image13.jpg",
-      color: "Brown"
+        "description": "Classic leather handbag for a timeless look.",
+        "price": 99.99,
+      "discountPrice": null,
+      "rating": 4.7,
+      "imageUrl": "path/to/image13.jpg",
+      "color": "Brown"
     },
     {
         "id": 14,
         "name": "Sling Crossbody Bag",
-      description: "Convenient sling crossbody bag for everyday use.",
-      price: 34.99,
-      discountPrice: null,
-      rating: 4.2,
-      imageUrl: "path/to/image14.jpg",
-      color: "Gray"
+        "description": "Convenient sling crossbody bag for everyday use.",
+        "price": 34.99,
+      "discountPrice": null,
+      "rating": 4.2,
+      "imageUrl": "path/to/image14.jpg",
+      "color": "Gray"
     },
     {
         "id": 15,
         "name": "Sophisticated Briefcase",
-      description: "Sophisticated briefcase for professionals.",
-      price: 89.99,
-      discountPrice: 74.99,
-      rating: 4.9,
-      imageUrl: "path/to/image15.jpg",
-      color: "Black"
+        "description": "Sophisticated briefcase for professionals.",
+        "price": 89.99,
+      "discountPrice": 74.99,
+      "rating": 4.9,
+      "imageUrl": "path/to/image15.jpg",
+      "color": "Black"
     },
     {
         "id": 16,
         "name": "Chic Satchel",
-      description: "Chic satchel with a modern touch.",
-      price: 49.99,
-      discountPrice: null,
-      rating: 4.3,
-      imageUrl: "path/to/image16.jpg",
-      color: "Red"
+        "description": "Chic satchel with a modern touch.",
+        "price": 49.99,
+        "discountPrice": null,
+      "rating": 4.3,
+      "imageUrl": "path/to/image16.jpg",
+      "color": "Red"
     },
     {
         "id": 17,
         "name": "Canvas Backpack",
-      description: "Durable canvas backpack for outdoor adventures.",
-      price: 54.99,
-      discountPrice: null,
-      rating: 4.1,
-      imageUrl: "path/to/image17.jpg",
-      color: "Green"
+        "description": "Durable canvas backpack for outdoor adventures.",
+        "price": 54.99,
+      "discountPrice": null,
+      "rating": 4.1,
+      "imageUrl": "path/to/image17.jpg",
+      "color": "Green"
     },
     {
         "id": 18,
         "name": "Stylish Sling Bag",
-      description: "Stylish sling bag for a trendy look.",
-      price: 39.99,
-      discountPrice: null,
-      rating: 4.6,
-      imageUrl: "path/to/image18.jpg",
-      color: "Blue"
-    },
+        "description": "Stylish sling bag for a trendy look.",
+        "price": 39.99,
+      "discountPrice": null,
+      "rating": 4.6,
+      "imageUrl": "path/to/image18.jpg",
+      "color": "Blue"
+    }
   ]
