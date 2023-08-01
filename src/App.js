@@ -1,208 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
+import bagsData from './bags.json';
+import shoesData from './shoes.json';
+
 
 const productsData = {
-  bags: [
-    {
-      id: 1,
-      name: "Classic Leather Bag",
-      description: "High-quality leather bag with multiple compartments.",
-      price: 89.99,
-      discountPrice: null,
-      rating: 4.5,
-      imageUrl: "path/to/image1.jpg",
-      color: "Black",
-    },
-    // Add more products for the "Bags" category
-    // Product 2
-    {
-      id: 2,
-      name: "Stylish Tote Bag",
-      description: "Fashionable tote bag made from eco-friendly materials.",
-      price: 74.99,
-      discountPrice: 59.99,
-      rating: 4.2,
-      imageUrl: "path/to/image2.jpg",
-      color: "Gray",
-    },
-    // Product 3
-    {
-      id: 3,
-      name: "Sports Duffel Bag",
-      description: "Spacious duffel bag for gym and sports activities.",
-      price: 49.99,
-      discountPrice: null,
-      rating: 4.0,
-      imageUrl: "path/to/image3.jpg",
-      color: "Blue",
-    },
-    // Product 4
-    {
-      id: 4,
-      name: "Stylish Shoulder Bag",
-      description: "Elegant shoulder bag for any occasion.",
-      price: 79.99,
-      discountPrice: null,
-      rating: 4.7,
-      imageUrl: "path/to/image4.jpg",
-      color: "Brown",
-    },
-    // Product 5
-    {
-      id: 5,
-      name: "Casual Backpack",
-      description: "Durable and versatile backpack for daily use.",
-      price: 49.99,
-      discountPrice: null,
-      rating: 4.5,
-      imageUrl: "path/to/image5.jpg",
-      color: "Green",
-    },
-    // Product 6
-    {
-      id: 6,
-      name: "Chic Clutch",
-      description: "Stylish clutch for evenings and special occasions.",
-      price: 39.99,
-      discountPrice: null,
-      rating: 4.3,
-      imageUrl: "path/to/image6.jpg",
-      color: "Silver",
-    },
-    // Product 7
-    {
-      id: 7,
-      name: "Rugged Messenger Bag",
-      description: "Durable messenger bag for carrying essentials.",
-      price: 64.99,
-      discountPrice: 49.99,
-      rating: 4.1,
-      imageUrl: "path/to/image7.jpg",
-      color: "Black",
-    },
-    // Product 8
-    {
-      id: 8,
-      name: "Trendy Satchel",
-      description: "Trendy satchel with a modern design.",
-      price: 54.99,
-      discountPrice: null,
-      rating: 4.6,
-      imageUrl: "path/to/image8.jpg",
-      color: "Brown",
-    },
-    // Product 9
-    {
-      id: 9,
-      name: "Elegant Clutch",
-      description: "Elegant clutch for special occasions.",
-      price: 59.99,
-      discountPrice: null,
-      rating: 4.4,
-      imageUrl: "path/to/image9.jpg",
-      color: "Gold",
-    },
-    // Product 10
-    {
-      id: 10,
-      name: "Sleek Laptop Bag",
-      description: "Sleek laptop bag for professionals.",
-      price: 69.99,
-      discountPrice: null,
-      rating: 4.0,
-      imageUrl: "path/to/image10.jpg",
-      color: "Gray",
-    },
-    // Product 11
-    {
-      id: 11,
-      name: "Fashionable Tote",
-      description: "Fashionable tote bag with trendy prints.",
-      price: 44.99,
-      discountPrice: null,
-      rating: 4.8,
-      imageUrl: "path/to/image11.jpg",
-      color: "Pink",
-    },
-    // Product 12
-    {
-      id: 12,
-      name: "Sturdy Travel Backpack",
-      description: "Sturdy backpack for travel enthusiasts.",
-      price: 79.99,
-      discountPrice: null,
-      rating: 4.5,
-      imageUrl: "path/to/image12.jpg",
-      color: "Black",
-    },
-    // Product 13
-    {
-      id: 13,
-      name: "Leather Handbag",
-      description: "Classic leather handbag for a timeless look.",
-      price: 99.99,
-      discountPrice: null,
-      rating: 4.7,
-      imageUrl: "path/to/image13.jpg",
-      color: "Brown",
-    },
-    // Product 14
-    {
-      id: 14,
-      name: "Sling Crossbody Bag",
-      description: "Convenient sling crossbody bag for everyday use.",
-      price: 34.99,
-      discountPrice: null,
-      rating: 4.2,
-      imageUrl: "path/to/image14.jpg",
-      color: "Gray",
-    },
-    // Product 15
-    {
-      id: 15,
-      name: "Sophisticated Briefcase",
-      description: "Sophisticated briefcase for professionals.",
-      price: 89.99,
-      discountPrice: 74.99,
-      rating: 4.9,
-      imageUrl: "path/to/image15.jpg",
-      color: "Black",
-    },
-    // Product 16
-    {
-      id: 16,
-      name: "Chic Satchel",
-      description: "Chic satchel with a modern touch.",
-      price: 49.99,
-      discountPrice: null,
-      rating: 4.3,
-      imageUrl: "path/to/image16.jpg",
-      color: "Red",
-    },
-    // Product 17
-    {
-      id: 17,
-      name: "Canvas Backpack",
-      description: "Durable canvas backpack for outdoor adventures.",
-      price: 54.99,
-      discountPrice: null,
-      rating: 4.1,
-      imageUrl: "path/to/image17.jpg",
-      color: "Green",
-    },
-    // Product 18
-    {
-      id: 18,
-      name: "Stylish Sling Bag",
-      description: "Stylish sling bag for a trendy look.",
-      price: 39.99,
-      discountPrice: null,
-      rating: 4.6,
-      imageUrl: "path/to/image18.jpg",
-      color: "Blue",
-    },
-  ],
-  // ... Rest of the categories
+  bags: bagsData ,
+  shoes: shoesData
 };
 
 
@@ -290,9 +94,31 @@ const App = () => {
     setFilteredProducts(sortedProducts.slice(0, 8));
     setLoadMoreEnabled(true);
   };
+  // Function to generate color options dynamically based on existing product data
+  const generateColorOptions = () => {
+    let uniqueColors = new Set();
+  
+    // Extract unique colors from the product data
+    productsData[selectedCategory].forEach((product) => {
+      uniqueColors.add(product.color);
+    });
+  
+    // Convert the Set back to an array and map to render the color options
+    return Array.from(uniqueColors).map((color) => (
+      <li
+        key={color}
+        onClick={() => handleColorFilterChange(color)}
+        className={colorFilter === color ? 'active' : ''}
+      >
+        {color}
+      </li>
+    ));
+  };
+  
 
   return (
     <div className="App">
+
       {/* Header */}
       <header>
         <h1>Logo</h1>
@@ -311,8 +137,8 @@ const App = () => {
           <h3>Color</h3>
           <ul>
             <li onClick={() => handleColorFilterChange('')}>All</li>
-            <li className={colorFilter === 'Black' ? 'active' : ''} onClick={() => handleColorFilterChange('Black')}>Black</li>
-            {/* Add more color options */}
+            {generateColorOptions()} {/* the options are generated based on the data i put */}
+
           </ul>
         </div>
         <div className="price-filter">
@@ -335,6 +161,7 @@ const App = () => {
           <option value="priceHigh">Price (High to Low)</option>
         </select>
       </section>
+      <div/> 
 
       {/* Product Grid */}
       <section className="product-grid">
