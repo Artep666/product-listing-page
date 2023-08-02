@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import logo from './additional_images/CoutureQuest.png'; 
 import './App.css';
 import bagsData from './bags.json';
 import shoesData from './shoes.json';
@@ -121,7 +123,7 @@ const App = () => {
 
       {/* Header */}
       <header>
-        <h1>Logo</h1>
+      <img src={logo} alt="Logo" className="logo" /> {/* Use the logo image */}
         <nav>
           <ul>
             <li className={selectedCategory === 'bags' ? 'active' : ''} onClick={() => handleCategoryChange('bags')}>Bags</li>
