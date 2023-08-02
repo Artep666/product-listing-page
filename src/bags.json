@@ -1,7 +1,7 @@
 [
     {
        "id": 1,
-      "name": "Classic Leather Bag",
+      "name": "Leather Bag",
       "description": "High-quality leather bag with multiple compartments.",
       "price": 89.99,
       "discountPrice": null,
@@ -149,35 +149,5 @@
       "rating": 4.9,
       "imageUrl": "path/to/image15.jpg",
       "color": "Black"
-    },
-    {
-        "id": 16,
-        "name": "Chic Satchel",
-        "description": "Chic satchel with a modern touch.",
-        "price": 49.99,
-        "discountPrice": null,
-      "rating": 4.3,
-      "imageUrl": "path/to/image16.jpg",
-      "color": "Red"
-    },
-    {
-        "id": 17,
-        "name": "Canvas Backpack",
-        "description": "Durable canvas backpack for outdoor adventures.",
-        "price": 54.99,
-      "discountPrice": null,
-      "rating": 4.1,
-      "imageUrl": "path/to/image17.jpg",
-      "color": "Green"
-    },
-    {
-        "id": 18,
-        "name": "Stylish Sling Bag",
-        "description": "Stylish sling bag for a trendy look.",
-        "price": 39.99,
-      "discountPrice": null,
-      "rating": 4.6,
-      "imageUrl": "path/to/image18.jpg",
-      "color": "Blue"
     }
   ]
