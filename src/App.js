@@ -6,6 +6,7 @@ import bagsData from './bags.json';
 import shoesData from './shoes.json';
 
 
+
 const productsData = {
   bags: bagsData ,
   shoes: shoesData
@@ -116,14 +117,15 @@ const App = () => {
       </li>
     ));
   };
-  
+  const totalProductsCount = productsData[selectedCategory].length;
+  const displayedProductsCount = filteredProducts.length;
 
   return (
     <div className="App">
 
       {/* Header */}
       <header>
-      <img src={logo} alt="Logo" className="logo" /> {/* Use the logo image */}
+      <img src={logo} alt="Logo" className="logo" /> 
         <nav>
           <ul>
             <li className={selectedCategory === 'bags' ? 'active' : ''} onClick={() => handleCategoryChange('bags')}>Bags</li>
@@ -131,7 +133,7 @@ const App = () => {
           </ul>
         </nav>
       </header>
-
+      <div className="container">
       {/* Product Filters */}
       <section className="product-filters">
         <h2>Filters</h2>
@@ -165,6 +167,15 @@ const App = () => {
       </section>
       <div/> 
 
+      {/* Product Counter */}
+      <section className="product-counter">
+              {displayedProductsCount > 0 && (
+                <p>
+                  {displayedProductsCount} out of {totalProductsCount} products
+                </p>
+              )}
+            </section>
+
       {/* Product Grid */}
       <section className="product-grid">
         {filteredProducts.map(product => (
@@ -172,13 +183,21 @@ const App = () => {
             <img src={product.imageUrl} alt={product.name} />
             <h3>{product.name}</h3>
             <p>{product.description}</p>
-            <p className="price">{product.discountPrice ? <span className="discount-price">${product.price}</span> : `$${product.price}`}</p>
-            <p className="ratings">Ratings: {product.rating} stars</p>
+
+            {product.discountPrice ? (
+    <div>
+      <p className="discounted-price">${product.discountPrice}</p>
+      <p className="normal-price">${product.price}</p>
+    </div>
+  ) : (
+    <p className="price">${product.price}</p>
+  )}
+      <p className="ratings">Ratings: {product.rating} stars</p>
             <button onClick={() => alert('Product added to cart')}>Add to Cart</button>
           </div>
         ))}
       </section>
-
+</div>
       {/* Load More */}
       {loadMoreEnabled && (
         <button className="load-more" onClick={handleLoadMore}>

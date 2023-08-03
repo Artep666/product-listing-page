@@ -6,7 +6,7 @@
       "price": 89.99,
       "discountPrice": null,
       "rating": 4.5,
-      "imageUrl": "path/to/image1.jpg",
+      "imageUrl": "src/bags_images/leather_bag.jpg",
       "color": "Black"
     },
 
@@ -17,7 +17,7 @@
        "price": 74.99,
        "discountPrice": 59.99,
         "rating": 4.2,
-        "imageUrl": "path/to/image2.jpg",
+        "imageUrl": "./bags_images/tote_bag.jpg",
         "color": "Gray"
     },
     {
@@ -108,7 +108,7 @@
       "discountPrice": null,
       "rating": 4.8,
       "imageUrl": "path/to/image11.jpg",
-      "color": "Pink"
+      "color": "Blue"
     },
     {
         "id": 12,
@@ -138,7 +138,7 @@
       "discountPrice": null,
       "rating": 4.2,
       "imageUrl": "path/to/image14.jpg",
-      "color": "Gray"
+      "color": "Black"
     },
     {
         "id": 15,

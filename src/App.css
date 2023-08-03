@@ -6,8 +6,11 @@ body {
 }
 
 header {
-  background-color: #fff;
-  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1000;
+  padding: 10px 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -20,6 +23,11 @@ header h1 {
   margin: 0 auto;
   width: 100px; 
   height: auto;
+}
+.product-counter {
+  text-align: center;
+  margin: 20px 0;
+  color: #000000;
 }
 nav ul {
   list-style: none;
@@ -93,6 +101,24 @@ nav li:hover {
   width: 100px;
 }
 
+.product-tile .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #777;
+}
+
+.product-tile .discounted-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0055;
+}
+
+.product-tile .normal-price {
+  font-size: 16px;
+  color: #777;
+  text-decoration: line-through;}
+
 .sorting {
   margin: 20px;
 }
@@ -102,6 +128,23 @@ nav li:hover {
   margin-bottom: 10px;
 }
 
+.container {
+  display: flex;
+}
+
+.product-filters {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.product-grid {
+  flex: 3;
+}
+.product-grid::after {
+  content: '';
+  display: block;
+  clear: both;
+}
 .sorting select {
   padding: 10px;
 }
@@ -168,7 +211,7 @@ nav li:hover {
 }
 
 .product-tile button:hover {
-  background-color: #d81b60;
+  background-color: #ec6496;
 }
 
 .load-more {
