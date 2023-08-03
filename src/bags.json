@@ -6,7 +6,7 @@
       "price": 89.99,
       "discountPrice": null,
       "rating": 4.5,
-      "imageUrl": "src/bags_images/leather_bag.jpg",
+      "imageUrl": "./bags_images/grey_laptop_bG.jpeg",
       "color": "Black"
     },
 
@@ -17,7 +17,7 @@
        "price": 74.99,
        "discountPrice": 59.99,
         "rating": 4.2,
-        "imageUrl": "./bags_images/tote_bag.jpg",
+        "imageUrl": "src/bags_images/tote_bag.jpg",
         "color": "Gray"
     },
     {

@@ -132,19 +132,7 @@ nav li:hover {
   display: flex;
 }
 
-.product-filters {
-  flex: 1;
-  padding-right: 20px;
-}
 
-.product-grid {
-  flex: 3;
-}
-.product-grid::after {
-  content: '';
-  display: block;
-  clear: both;
-}
 .sorting select {
   padding: 10px;
 }
@@ -194,7 +182,7 @@ nav li:hover {
 }
 
 .product-tile .ratings {
-  color: #ffc107;
+  color: #ffa600e8;
   font-size: 14px;
 }
 

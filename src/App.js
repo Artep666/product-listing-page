@@ -133,7 +133,7 @@ const App = () => {
           </ul>
         </nav>
       </header>
-      <div className="container">
+
       {/* Product Filters */}
       <section className="product-filters">
         <h2>Filters</h2>
@@ -141,7 +141,7 @@ const App = () => {
           <h3>Color</h3>
           <ul>
             <li onClick={() => handleColorFilterChange('')}>All</li>
-            {generateColorOptions()} {/* the options are generated based on the data i put */}
+            {generateColorOptions()} {/* the options are generated based on the data i put for color in the json*/}
 
           </ul>
         </div>
@@ -180,7 +180,8 @@ const App = () => {
       <section className="product-grid">
         {filteredProducts.map(product => (
           <div key={product.id} className="product-tile">
-            <img src={product.imageUrl} alt={product.name} />
+            
+            <img src={product.imageUrl}  />
             <h3>{product.name}</h3>
             <p>{product.description}</p>
 
@@ -197,7 +198,6 @@ const App = () => {
           </div>
         ))}
       </section>
-</div>
       {/* Load More */}
       {loadMoreEnabled && (
         <button className="load-more" onClick={handleLoadMore}>
