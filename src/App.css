@@ -139,17 +139,24 @@ nav li:hover {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
   margin: 20px;
 }
 
+
+
 .product-tile {
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 5px;
-}
+  max-width: 250px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+ }
 
 .product-tile img {
   width: 100%;
@@ -196,6 +203,9 @@ nav li:hover {
   width: 100%;
   font-size: 16px;
   margin-top: 10px;
+  align-self: flex-end;
+  margin-top: auto;
+
 }
 
 .product-tile button:hover {

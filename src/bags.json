@@ -6,8 +6,8 @@
       "price": 89.99,
       "discountPrice": null,
       "rating": 4.5,
-      "imageUrl": "./bags_images/grey_laptop_bG.jpeg",
-      "color": "Black"
+      "imageUrl": "./bags_images/leather_bag.jpg",
+      "color": "Brown"
     },
 
     {
@@ -17,7 +17,7 @@
        "price": 74.99,
        "discountPrice": 59.99,
         "rating": 4.2,
-        "imageUrl": "src/bags_images/tote_bag.jpg",
+        "imageUrl": "./bags_images/tote_bag.jpg",
         "color": "Gray"
     },
     {
@@ -25,39 +25,39 @@
         "name": "Sports Duffel Bag",
         "description": "Spacious duffel bag for gym and sports activities.",
         "price": 49.99,
-      "discountPrice": null,
-      "rating": 4.0,
-      "imageUrl": "path/to/image3.jpg",
-      "color": "Blue"
+        "discountPrice": null,
+        "rating": 4.0,
+       "imageUrl": "./bags_images/duffel_bag.jpeg",
+        "color": "Black"
     },
     {
         "id": 4,
-        "name": "Stylish Shoulder Bag",
+        "name": "Guess Shoulder Bag",
         "description": "Elegant shoulder bag for any occasion.",
         "price": 79.99,
-      "discountPrice": null,
-      "rating": 4.7,
-      "imageUrl": "path/to/image4.jpg",
-      "color": "Brown"
+        "discountPrice": null,
+        "rating": 4.7,
+        "imageUrl": "./bags_images/shoulder_bag.jpg",
+        "color": "Black"
     },
     {
         "id": 5,
         "name": "Casual Backpack",
         "description": "Durable and versatile backpack for daily use.",
         "price": 49.99,
-      "discountPrice": null,
-      "rating": 4.5,
-      "imageUrl": "path/to/image5.jpg",
-      "color": "Green"
+        "discountPrice": null,
+        "rating": 4.5,
+        "imageUrl": "./bags_images/green_casual_backpack.jpg ",
+        "color": "Green"
     },
     {
         "id": 6,
-        "name": "Chic Clutch",
+        "name": "Clutch",
         "description": "Stylish clutch for evenings and special occasions.",
         "price": 39.99,
       "discountPrice": null,
       "rating": 4.3,
-      "imageUrl": "path/to/image6.jpg",
+      "imageUrl": "./bags_images/silver_clutch.jpeg",
       "color": "Silver"
     },
     {
@@ -65,10 +65,10 @@
         "name": "Rugged Messenger Bag",
         "description": "Durable messenger bag for carrying essentials.",
         "price": 64.99,
-      "discountPrice": 49.99,
-      "rating": 4.1,
-      "imageUrl": "path/to/image7.jpg",
-      "color": "Black"
+        "discountPrice": 49.99,
+        "rating": 4.1,
+        "imageUrl": "./bags_images/messenger_bag.jpeg",
+        "color": "Black"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "price": 54.99,
       "discountPrice": null,
       "rating": 4.6,
-      "imageUrl": "path/to/image8.jpg",
+      "imageUrl": "./bags_images/satchel_brown.jpg",
       "color": "Brown"
     },
     {
@@ -87,7 +87,7 @@
         "price": 59.99,
       "discountPrice": null,
       "rating": 4.4,
-      "imageUrl": "path/to/image9.jpg",
+      "imageUrl": "./bags_images/golden_clutch.jpg",
       "color": "Gold"
     },
     {
@@ -95,10 +95,10 @@
         "name": "Sleek Laptop Bag",
         "description": "Sleek laptop bag for professionals.",
         "price": 69.99,
-      "discountPrice": null,
-      "rating": 4.0,
-      "imageUrl": "path/to/image10.jpg",
-      "color": "Gray"
+        "discountPrice": null,
+        "rating": 4.0,
+        "imageUrl": "./bags_images/grey_laptop_bG.jpeg",
+        "color": "Gray"
     },
     {
         "id": 11,
@@ -107,18 +107,18 @@
         "price": 44.99,
       "discountPrice": null,
       "rating": 4.8,
-      "imageUrl": "path/to/image11.jpg",
+      "imageUrl": "./bags_images/blue_tote_bag.jpg",
       "color": "Blue"
     },
     {
         "id": 12,
-        "name": "Sturdy Travel Backpack",
+        "name": "Travel Backpack",
         "description": "Sturdy backpack for travel enthusiasts.",
         "price": 79.99,
-      "discountPrice": null,
-      "rating": 4.5,
-      "imageUrl": "path/to/image12.jpg",
-      "color": "Black"
+        "discountPrice": null,
+        "rating": 4.5,
+        "imageUrl": "./bags_images/red_travel_backpack.jpg",
+        "color": "Red"
     },
     {
         "id": 13,
@@ -127,8 +127,8 @@
         "price": 99.99,
       "discountPrice": null,
       "rating": 4.7,
-      "imageUrl": "path/to/image13.jpg",
-      "color": "Brown"
+      "imageUrl": "./bags_images/yellow_handbag.jpg",
+      "color": "Yellow"
     },
     {
         "id": 14,
@@ -137,8 +137,8 @@
         "price": 34.99,
       "discountPrice": null,
       "rating": 4.2,
-      "imageUrl": "path/to/image14.jpg",
-      "color": "Black"
+      "imageUrl": "./bags_images/purple_crossbag.jpg",
+      "color": "Purple"
     },
     {
         "id": 15,
@@ -147,7 +147,7 @@
         "price": 89.99,
       "discountPrice": 74.99,
       "rating": 4.9,
-      "imageUrl": "path/to/image15.jpg",
-      "color": "Black"
+      "imageUrl": "./bags_images/red_briefcase.jpg",
+      "color": "Red"
     }
   ]
