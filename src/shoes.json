@@ -2,27 +2,27 @@
     {
       "id": 1,
       "name": "Running Shoes",
-      "description": "Comfortable running shoes for everyday use.",
+      "description": "Lightweight everyday trainer with advanced cushioning for active lifestyles.",
       "price": 64.99,
       "discountPrice": 49.99,
       "rating": 4.0,
-      "imageUrl": "path/to/image11.jpg",
+      "imageUrl": "./shoes_images/gray_running_shoes.jpg",
       "color": "Gray"
     },
     {
       "id": 2,
       "name": "Casual Sneakers",
-      "description": "Stylish casual sneakers for a trendy look.",
+      "description": "Puma Men's Punch Comfort White Casual Sneakers ",
       "price": 54.99,
       "discountPrice": null,
       "rating": 4.3,
-      "imageUrl": "path/to/image12.jpg",
+      "imageUrl": "./shoes_images/white_casual_sneakers.jpeg",
       "color": "White"
     },
     {
       "id": 3,
       "name": "Formal Oxford Shoes",
-      "description": "Elegant oxford shoes for formal occasions.",
+      "description": "Italian Black Formal Oxford Shoes.",
       "price": 89.99,
       "discountPrice": null,
       "rating": 4.5,
@@ -32,12 +32,12 @@
     {
       "id": 4,
       "name": "Athletic Training Shoes",
-      "description": "High-performance athletic shoes for training.",
+      "description": "TSIODFO Women's Sneakers Athletic Sport Running Tennis Walking Shoes, A069 Navy Blue, 6",
       "price": 74.99,
       "discountPrice": null,
       "rating": 4.2,
       "imageUrl": "path/to/image14.jpg",
-      "color": "Blue"
+      "color": "Navy"
     },
     {
       "id": 5,
