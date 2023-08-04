@@ -212,6 +212,13 @@ color:#fff
   margin-top: auto;
 
 }
+.category-description {
+  padding: 15px;
+  background-color: #facee8e3;
+  font-size: 18px;
+  text-align: center;
+}
+
 
 .product-tile button:hover {
   background-color: #ff80af;
@@ -313,7 +320,9 @@ footer li:hover {
   .product-tile .ratings {
     font-size: 12px;
   }
-
+  .category-description {
+    font-size: 16px;
+  }
   .product-tile button {
     padding: 8px 15px;
     font-size: 14px;

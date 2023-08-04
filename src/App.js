@@ -29,7 +29,15 @@ const App = () => {
     setMinPrice('');
     setMaxPrice('');
   };
-
+  const CategoryDescription = () => {
+    if (selectedCategory === 'bags') {
+      return <><h1>Bags </h1><p>Explore our collection of high-quality stylish bags, designed to elevate your everyday look with practicality and elegance.</p></>;
+    } else if (selectedCategory === 'shoes') {
+      return <><h1>Shoes </h1><p>Step into comfort and style with our trendy and durable shoe selection, offering a perfect fit for every occasion and season.</p></>;
+    } else {
+      return null;
+    }
+  };
   const handleLoadMore = () => {
     const currentProductCount = filteredProducts.length;
     const nextProducts = productsData[selectedCategory].slice(currentProductCount, currentProductCount + 8);
@@ -166,7 +174,9 @@ const App = () => {
         </select>
       </section>
       <div/> 
-
+        <section className="category-description">
+        <CategoryDescription />
+      </section>
       {/* Product Counter */}
       <section className="product-counter">
               {displayedProductsCount > 0 && (
@@ -175,6 +185,7 @@ const App = () => {
                 </p>
               )}
             </section>
+    
 
       {/* Product Grid */}
       <section className="product-grid">
