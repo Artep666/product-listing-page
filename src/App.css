@@ -47,12 +47,12 @@ nav li {
 }
 
 nav li.active {
-  background-color: #f5f5f5;
+  background-color: #ffc7e6af;
   border-radius: 5px;
 }
 
 nav li:hover {
-  background-color: #f5f5f5;
+  background-color: #ff80b5;
   border-radius: 5px;
 }
 
@@ -71,6 +71,11 @@ nav li:hover {
   padding: 0;
   margin: 0;
 }
+.color-filter li:hover {
+background:  #e91e63;
+color:#fff
+}
+
 
 .color-filter li {
   cursor: pointer;
@@ -209,7 +214,7 @@ nav li:hover {
 }
 
 .product-tile button:hover {
-  background-color: #ec6496;
+  background-color: #ff80af;
 }
 
 .load-more {
@@ -225,7 +230,7 @@ nav li:hover {
 }
 
 .load-more:hover {
-  background-color: #d81b60;
+  background-color: #f86198;
 }
 
 footer {
@@ -250,4 +255,68 @@ footer li {
 
 footer li:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+  }
+
+  header h1 {
+    margin: 15px 0;
+  }
+
+  .logo {
+   align-items: center;
+  }
+
+  nav ul {
+    margin-top: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .product-filters {
+    margin: 10px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .product-tile {
+    padding: 10px;
+  }
+
+  .product-tile img {
+    height: 150px;
+  }
+
+  .product-tile h3 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .product-tile .price {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .product-tile .ratings {
+    font-size: 12px;
+  }
+
+  .product-tile button {
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
 }
