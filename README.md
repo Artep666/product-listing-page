@@ -1,5 +1,7 @@
 # CoutureQuest - Product Listing Page 
 CoutureQuest is a fashion e-commerce web application that allows users to explore and shop for stylish bags and shoes. This project was built using React . The app provides various features such as category filtering, color filtering, price filtering, sorting options, and a load more functionality for products.
+
+
 ![image](https://github.com/Artep666/product-listing-page/assets/78253393/6c341bd5-bfbe-482f-8bf5-55c7cc860989)
 ![image](https://github.com/Artep666/product-listing-page/assets/78253393/852b4424-47a4-42e4-b3d2-c2ffc5db2fd3)
 ![image](https://github.com/Artep666/product-listing-page/assets/78253393/635875dd-ddef-4656-9a07-4bc97be99015)
