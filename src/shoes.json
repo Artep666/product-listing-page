@@ -26,7 +26,7 @@
       "price": 89.99,
       "discountPrice": null,
       "rating": 4.5,
-      "imageUrl": "path/to/image13.jpg",
+      "imageUrl": "./shoes_images/black_oxford shoes.jpg",
       "color": "Black"
     },
     {
@@ -36,7 +36,7 @@
       "price": 74.99,
       "discountPrice": null,
       "rating": 4.2,
-      "imageUrl": "path/to/image14.jpg",
+      "imageUrl": "./shoes_images/blue_athletic shoes.jpg",
       "color": "Navy"
     },
     {
@@ -46,27 +46,27 @@
       "price": 59.99,
       "discountPrice": 49.99,
       "rating": 4.1,
-      "imageUrl": "path/to/image15.jpg",
+      "imageUrl": "./shoes_images/brown_loafers.jpg",
       "color": "Brown"
     },
     {
       "id": 6,
       "name": "Canvas Slip-Ons",
-      "description": "Comfortable canvas slip-on shoes.",
+      "description": "Classics colors slip on shoes, easy to paired with casual clothes ,jeans ,shorts ,skirts etc. ",
       "price": 39.99,
-      "discountPrice": null,
+      "discountPrice": 19.83,
       "rating": 4.7,
-      "imageUrl": "path/to/image16.jpg",
-      "color": "Gray"
+      "imageUrl": "./shoes_images/blue_canvas.jpg",
+      "color": "Blue"
     },
     {
       "id": 7,
-      "name": "Fashionable Wedges",
-      "description": "Fashionable wedges for a chic look.",
+      "name": "Wedge Heels",
+      "description": "These  wedge heels perfect for casual style dress, shorts, jeans, pants etc.",
       "price": 69.99,
       "discountPrice": null,
       "rating": 4.4,
-      "imageUrl": "path/to/image17.jpg",
+      "imageUrl": "./shoes_images/wedge-heels.jpg",
       "color": "Black"
     },
     {
@@ -76,8 +76,8 @@
       "price": 79.99,
       "discountPrice": null,
       "rating": 4.6,
-      "imageUrl": "path/to/image18.jpg",
-      "color": "Red"
+      "imageUrl": "./shoes_images/blue_high_heels.jpg",
+      "color": "Blue"
     },
     {
       "id": 9,
@@ -86,28 +86,28 @@
       "price": 49.99,
       "discountPrice": null,
       "rating": 4.3,
-      "imageUrl": "path/to/image19.jpg",
-      "color": "Beige"
+      "imageUrl": "./shoes_images/red_sandals.jpg",
+      "color": "Red"
     },
     {
       "id": 10,
-      "name": "Classic Pumps",
-      "description": "Elegant pumps for formal events.",
+      "name": "Running Shoes",
+      "description": "Running shoes: high-performance footwear designed for optimal comfort, support, and cushioning during running activities.",
       "price": 89.99,
       "discountPrice": null,
       "rating": 4.7,
-      "imageUrl": "path/to/image20.jpg",
-      "color": "Navy"
+      "imageUrl": "./shoes_images/purple_running_shoes.png",
+      "color": "Purple"
     },
     {
       "id": 11,
-      "name": "Casual Espadrilles",
+      "name": "Espadrilles",
       "description": "Casual espadrilles for a laid-back look.",
       "price": 44.99,
       "discountPrice": 39.99,
       "rating": 4.2,
-      "imageUrl": "path/to/image21.jpg",
-      "color": "Blue"
+      "imageUrl": "./shoes_images/white_espadrilles.jpg",
+      "color": "White"
     },
     {
       "id": 12,
@@ -116,37 +116,37 @@
       "price": 54.99,
       "discountPrice": null,
       "rating": 4.5,
-      "imageUrl": "path/to/image22.jpg",
-      "color": "Gray"
+      "imageUrl": "./shoes_images/pink_sport_sandals.png",
+      "color": "Pink"
     },
     {
       "id": 13,
       "name": "Platform Sneakers",
-      "description": "Trendy platform sneakers for a bold style.",
+      "description": "Stylish shoes with raised soles for a fashionable urban look and comfortable wear.",
       "price": 69.99,
       "discountPrice": null,
       "rating": 4.1,
-      "imageUrl": "path/to/image23.jpg",
-      "color": "Black"
+      "imageUrl": "./shoes_images/pink _platforms.jpg",
+      "color": "Pink"
     },
     {
       "id": 14,
-      "name": "Comfortable Mules",
-      "description": "Comfortable mules for everyday wear.",
+      "name": "Classic Mules",
+      "description": "Classic slip-on shoes with an open-back design, combining ease and style for versatile and effortless fashion.",
       "price": 59.99,
       "discountPrice": null,
       "rating": 4.4,
-      "imageUrl": "path/to/image24.jpg",
-      "color": "Brown"
+      "imageUrl": "./shoes_images/pink_mules.png",
+      "color": "Pink"
     },
     {
       "id": 15,
       "name": "Casual Boat Shoes",
-      "description": "Casual boat shoes for a relaxed look.",
+      "description": "Timeless and durable footwear originally designed for sailors, now a popular choice for casual wear with their slip-resistant soles and nautical-inspired look.",
       "price": 49.99,
       "discountPrice": null,
       "rating": 4.6,
-      "imageUrl": "path/to/image25.jpg",
+      "imageUrl": "./shoes_images/blue_boat_shoes.jpg",
       "color": "Blue"
     },
     {
@@ -154,19 +154,19 @@
       "name": "Stylish Ankle Boots",
       "description": "Stylish ankle boots for a trendy appearance.",
       "price": 74.99,
-      "discountPrice": 59.99,
+      "discountPrice": 54.99,
       "rating": 4.3,
-      "imageUrl": "path/to/image26.jpg",
+      "imageUrl": "./shoes_images/black_ankle_boots.png",
       "color": "Black"
     },
     {
       "id": 17,
-      "name": "Classic Brogues",
-      "description": "Classic brogues for a timeless style.",
+      "name": "Chunky Platform Knee-High Boots",
+      "description": "Make a bold fashion statement with these stylish boots featuring elevated soles and a knee-high design for an edgy and confident look.",
       "price": 79.99,
-      "discountPrice": null,
+      "discountPrice": 59.99,
       "rating": 4.7,
-      "imageUrl": "path/to/image27.jpg",
-      "color" : "Navy"
+      "imageUrl": "./shoes_images/black_knee_boots.jpg",
+      "color" : "Black"
     }
 ]
