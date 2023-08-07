@@ -11,11 +11,11 @@ Category Selection: Users can switch between the "Bags" and "Shoes" categories t
 
 ## Product Filters:
 
-Color Filter: Users can filter products by color. The available color options are dynamically generated based on the existing product data.
+### Color Filter: Users can filter products by color. The available color options are dynamically generated based on the existing product data.
 Price Filter: Users can set a minimum and maximum price range to filter products by price.
 Sorting Options: Users can sort the displayed products by:
 
-Alphabetical Order: Ascending (A-Z) or Descending (Z-A) based on product names.
+### Alphabetical Order: Ascending (A-Z) or Descending (Z-A) based on product names.
 Price: Ascending (Low to High) or Descending (High to Low) based on product prices.
 Load More: The app implements a "Load More" button that fetches the next set of products and displays them as the user scrolls.
 
